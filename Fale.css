@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+#logomen {
+    background: no-repeat;
+    background-size: cover;
+    background-image: url(Group\ 16.png);
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 1fr 1fr;
+
+    text-align: center;
+
+}
+
+#logomen div {
+    margin-top: 50px;
+}
+
+.menutam {
+    
+    font-size: 35px;
+    font-family: "Jaldi";
+}
+
+.menutam a {
+    text-decoration: none;
+    color: black;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-family: "Jaldi";
+}
+
+#fale{
+    font-size: 35px;
+    font-family: "Jaldi";
+}
+
+#fale a {
+    text-decoration: none;
+    color: black;
+}
+
+#carros {
+
+    font-size: 24px;
+}
+
+.letratam {
+    font-size: 30px;
+    font-family: "Jaldi";
+    text-align: left;
+}
+
+.formacao {
+    display: grid;
+    border: 10px;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    height: 200px;
+    font-family: "Jaldi";
+
+}
+
+#buscainside {
+    display: flex;
+    align-self: flex-start;
+    background-color: rgb(211, 211, 211);
+    border-radius: 10px;
+    position: relative;
+    width: 60vh;
+    height: 5vh;
+    font-size: 20px;
+    border-color: black;
+    text-align: left;
+    font-family: "Jaldi";
+
+}
+
+#descola {
+    margin-left: 175px;
+}
+
+.letratamicont {
+    font-size: 35px;
+    font-family: "Jaldi";
+    text-align: center;
+
+}
+
+#buscainsideM {
+    padding-bottom: 250px;
+    margin-left: 250px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 10px;
+    position: relative;
+    width: 60vh;
+    height: 30vh;
+    font-size: 20px;
+    border-color: black;
+    text-align: start;
+    font-family: "Jaldi";
+}
+
+.letratamiM {
+    font-size: 35px;
+    font-family: "Jaldi";
+    margin-left: 275px;
+}
+
+.imagensfale1 {
+    padding-top: 250px;
+    display: flex;
+    margin-left: 150px;
+}
+.imagensfale2 {
+    padding-top: 15px;
+    display: flex;
+    margin-left: 150px;
+}
+
+.letraimagens {
+
+    font-size: 50px;
+    font-family: "Jaldi";
+
+
+}
